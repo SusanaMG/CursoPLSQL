@@ -2,7 +2,7 @@
 set serveroutput on;
 
 DECLARE
---Definicion de funciones y variables
+-- Definicion de funciones y variables
 
 BEGIN
 

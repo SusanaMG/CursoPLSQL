@@ -1,6 +1,6 @@
 -- Condiciones y Operadores
--- Operadores-Logicos: > , >= , < , <= , = , <> , % , LIKE , BETWEEN , IN ,
--- IS NULL
+-- Operadores-Logicos: > , >= , < , <= , = , <> 
+-- Operadores de evaluación: % , LIKE , BETWEEN , IN , IS NULL
 set serveroutput on;
 
 DECLARE

@@ -9,10 +9,10 @@ DECLARE
   fecha date;
 
 BEGIN
-  nombreempleado :='Susana M';
-  activo :=true;
-  --fecha :=sysdate;
-  fecha :='10-07-2019';
+  nombreempleado := 'Susana M';
+  activo := true;
+  --fecha := sysdate;
+  fecha := '10-07-2019';
     
   DBMS_OUTPUT.PUT_LINE('Nombre: ' || nombreEmpleado);
   

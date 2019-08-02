@@ -3,7 +3,7 @@
 set serveroutput on;
 
 DECLARE
-  nota number :=67;
+  nota number := 67;
   
 BEGIN
   IF(nota between 67 and 69) THEN

@@ -3,7 +3,7 @@ set serveroutput on;
 
 DECLARE
   --Variables
-  numero number :=5;
+  numero number := 5;
   precio number := 10;
   subCompra number;
   impuesto number;
