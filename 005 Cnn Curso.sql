@@ -2,7 +2,7 @@
 set serveroutput on;
 
 DECLARE
---Definicion de funciones y variables
+--Definición de funciones y variables
   salario NUMBER := 1500;
   nombreEmpleado NVARCHAR2(100);
   activo boolean;
