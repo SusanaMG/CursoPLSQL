@@ -1,0 +1,63 @@
+===============================================================================
+===============================================================================
+TEMA 5 PROCEDIMIENTOS Y FUNCIONES
+
+Las funciones son un código encapsulado que está protegido del exterior. Siempre devuelven algún valor.
+
+Los procedimientos en PL/SQL pueden devolver uno o varios datos (video 031).
+
+===============================================================================
+
+Un cursor es como una consulta en memoria, puede ser barrido secuencialmente para obtener cada uno de los valores de cada fila y columna para así ejecutar algún proceso (video 035).
+
+===============================================================================
+===============================================================================
+TEMA 06 CURSORES Y TIPO DE DATO RECORD
+
+Cursores Implícitos:
+
+Cuando se ejecuta un insert, delete o update se crea un cursor implícito, es decir, en memoria se crea algo que nos va a permitir decir cuántos registros fueron afectados, se encontraron o no registros, si está abierto o no está abierto el cursor (simpre va a ser "falso" la respuesta a si está abierto el cursor implícito).
+
+El cursor implícito sql%rowcount contiene el resultado de la última transacción, de la última query.
+
+Después de tocar la base de datos con un cursor implícito hay que hacer un COMMIT para grabar los datos definitivamente. El commit se ha de realizar después de usar el cursor porque lo que hace es eliminar el cursor. 
+
+===============================================================================
+
+Cursores Explícitos:
+
+El programador se tiene que encargar de todo el manejo del cursor, abrirlo, cargar los datos y cerrarlo. La ventaja es el control absoluto. 
+
+Es una ventaja tener en la sección del "DECLARE" declarado el cursor.
+
+===============================================================================
+
+Tipo de dato RECORD (REGISTRO): 
+
+Ayuda cuando se tiene que procesar tablas muy grandes, con muchas filas y columnas.
+
+La única condición es usar una consulta que devuelva una única línea como resultado.  
+
+===============================================================================
+
+Registro definido por usuario - User defined record:
+
+Son registros tipo record que no salen de tablas y se crean en tiempo de ejecución.
+
+Fácil y ordenada de trabajar con datos cuando no vienen de una tabla pero tienen una relación común. 
+
+===============================================================================
+
+Registros como parámetros a funciones y procedimientos.
+
+Vamos a mandar nuestro registro definido por el usuario a una función o un procedimiento. 
+
+===============================================================================
+===============================================================================
+TEMA 07 EXCEPCIONES
+
+Manejar al menos la excepción OTHERS
+
+===============================================================================
+===============================================================================
+

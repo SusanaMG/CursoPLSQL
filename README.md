@@ -1,8 +1,8 @@
-# curso PL/SQL
+# curso PL/SQL - Curso finalizado
 Repositorio del curso de Oracle PL/SQL
 
 ## NOTAS:
 Curso _"Curso completo de Oracle PL/SQL"_
 
 ## MATERIAL ADJUNTO:
-@Comandos sentencias.txt: fichero generado manualmente por mí sacando notas del curso.
+@Notas_temario_curso_PLSQL.txt: fichero generado manualmente por mí sacando notas del curso.
